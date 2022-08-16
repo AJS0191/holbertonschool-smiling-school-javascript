@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body class="ssp">
+    <div class="hero container-fluid">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md">
+                <div class="d-sm-flex navbar-brand mAuto">
+                    <img src="images/favicon.png" alt="smile">
+                    <img src="images/logo.png" alt="smile_logo">
+                </div>
+                <button class="navbar-toggler mr-sm-auto" data-toggle="collapse" data-target="#navMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ml-auto text-white">
+                        <li class="nav-item mr-5">COURSES</li>
+                        <li class="nav-item mr-5">PRICING</li>
+                        <li class="nav-item">LOGIN</li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="flex-d flex-column-reverse justify-content-center text-center">
+                <h1 class="text-white display-2 text-center shadow">Get schooled</h1>
+                <div class="d-flex flex-inline justify-content-center flex-wrap mt-1">
+                    <p class="text-white p-2">SMILES</p>
+                    <p class="text-white p-2">GRIN</p>
+                    <p class="text-white p-2">LAUGH</p>
+                </div>
+                <button class="button rounded-pill border-0 text-white p-2">REGISTER FOR FREE</button>
+                <h2 class="text-white mt-200"><span class="color-purp">Learn</span> from the pros</h2>
+                <div class="d-flex flex-inline justify-content-around flex-wrap flex-sm-nowrap mt-1 text-white ">
+                    <div class="maxw-150">
+                        <img class="maxw-150 profile-img" src="images/profile_1.jpg">
+                        <p>Phillip Massey</p>
+                        <p class="font-weight-light font-italic sspl">Smile of the » 2018 - 2019</p>
+                    </div>
+                    <div class="maxw-150" id="trouble">
+                        <img class="maxw-150 profile-img" src="images/profile_2.jpg">
+                        <p>Nannie Lawrence</p>
+                        <p class="font-weight-light font-italic sspl">Best « little smile » 2017</p>
+                    </div>
+                    <div class="maxw-150">
+                        <img class="maxw-150 profile-img" src="images/profile_3.jpg">
+                        <p>Bruce Walters</p>
+                        <p class="font-weight-light font-italic sspl">Best « Friend Smile » live performance 2019</p>
+                    </div>
+                    <div class="maxw-150">
+                        <img class="maxw-150 profile-img" src="images/profile_4.jpg">
+                        <p>Henry Hughes</p>
+                        <p class="font-weight-light font-italic sspl">« 24h smiles » winner 2016 - 2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel 0-->
+    <div class="container-fluid bg-purp">
+        <div class="container">
+            <div id="caro" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                <li data-target="#caro" data-slide-to="0" class="active"></li>
+                <li data-target="#caro" data-slide-to="1"></li>
+                <li data-target="#caro" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner text-white">
+
+                <div class="carousel-item circlepic active">
+                    <div class="d-flex  sm-cl flex-inline align-items-center m-5">
+                        <img src="images/profile_5.jpg" alt="profile5" class="ml-3 mr-3">
+                        <div class="d-flex flex-column ml-3 mr-3">
+                            <p class="sspl">« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</p>
+                            <p>Person Name</p>
+                            <p class="font-weight-light font-italic sspl">weather presenter</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item circlepic">
+                    <div class="d-flex  sm-cl flex-inline align-items-center m-5">
+                        <img src="images/profile_5.jpg" alt="profile5" class="ml-3 mr-3">
+                        <div class="d-flex flex-column ml-3 mr-3">
+                            <p class="sspl">« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</p>
+                            <p>Person Name</p>
+                            <p class="font-weight-light font-italic sspl">weather presenter</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item circlepic">
+                    <div class="d-flex  sm-cl flex-inline align-items-center m-5">
+                        <img src="images/profile_5.jpg" alt="profile5" class="ml-3 mr-3">
+                        <div class="d-flex flex-column ml-3 mr-3">
+                            <p class="sspl">« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</p>
+                            <p>Person Name</p>
+                            <p class="font-weight-light font-italic sspl">weather presenter</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#caro" data-slide="prev">
+                <span class="carousel-control-prev-icon mr-5"></span>
+            </a>
+            <a class="carousel-control-next" href="#caro" data-slide="next">
+                <span class="carousel-control-next-icon ml-5"></span>
+            </a>
+            
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel 1-->
+    <div class="container-fluid mb-100">
+        <h2 class="mt-100 mb-100 text-center">Most <span class="color-purp">popular</span> tutorials</h2>
+            <div id="caro1" class="carousel slide" data-ride="carousel" data-interval="false">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                <li data-target="#caro1" data-slide-to="0" class="active"></li>
+                <li data-target="#caro1" data-slide-to="1"></li>
+                <li data-target="#caro1" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner" id="caro1Inner">
+
+                <div class="carousel-item active" id="caro1First">
+                    <div class=>
+                        <div class="cards-wrapper">
+                            <div class="card" id="card1">
+                                <div id="thumb1" class="card-img-div d-flex justify-content-center align-items-center" alt="..."><div class="playCircle"></div></div>
+                                <div class="card-body">
+                                    <h5 class="card-title sspb">Diagonal Smile</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                    <div class="d-flex inline">
+                                        <img src="images/profile_1.jpg" class="tinyCircle">
+                                        <p class="color-purp">Phillip Massey</p>
+                                    </div>
+                                    <div class="d-flex inline justify-content-between align-items-center">
+                                        <div class="d-flex inline">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_off.png" alt="star" class="tinyStar mr-1">
+                                        </div>
+                                        <p class="color-purp">8 min</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card" id="card2">
+                                <div id="thumb2" class="card-img-div d-flex justify-content-center align-items-center" alt="..."><div class="playCircle"></div></div>
+                                <div class="card-body">
+                                    <h5 class="card-title sspb">Diagonal Smile</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                    <div class="d-flex inline">
+                                        <img src="images/profile_1.jpg" class="tinyCircle">
+                                        <p class="color-purp">Phillip Massey</p>
+                                    </div>
+                                    <div class="d-flex inline justify-content-between align-items-center">
+                                        <div class="d-flex inline">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_off.png" alt="star" class="tinyStar mr-1">
+                                        </div>
+                                        <p class="color-purp">8 min</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card" id="card3">
+                                <div id="thumb3" class="card-img-div d-flex justify-content-center align-items-center" alt="..."><div class="playCircle"></div></div>
+                                <div class="card-body">
+                                    <h5 class="card-title sspb">Diagonal Smile</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                    <div class="d-flex inline">
+                                        <img src="images/profile_1.jpg" class="tinyCircle">
+                                        <p class="color-purp">Phillip Massey</p>
+                                    </div>
+                                    <div class="d-flex inline justify-content-between align-items-center">
+                                        <div class="d-flex inline">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_off.png" alt="star" class="tinyStar mr-1">
+                                        </div>
+                                        <p class="color-purp">8 min</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card" id="card4">
+                                <div id="thumb4" class="card-img-div d-flex justify-content-center align-items-center" alt="..."><div class="playCircle"></div></div>
+                                <div class="card-body">
+                                    <h5 class="card-title sspb">Diagonal Smile</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                    <div class="d-flex inline">
+                                        <img src="images/profile_1.jpg" class="tinyCircle">
+                                        <p class="color-purp">Phillip Massey</p>
+                                    </div>
+                                    <div class="d-flex inline justify-content-between align-items-center">
+                                        <div class="d-flex inline">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                            <img src="images/star_off.png" alt="star" class="tinyStar mr-1">
+                                        </div>
+                                        <p class="color-purp">8 min</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#caro1" data-slide="prev">
+                <span class="carousel-control-prev-iconb mr-5"></span>
+            </a>
+            <a class="carousel-control-next" href="#caro1" data-slide="next">
+                <span class="carousel-control-next-iconb ml-5"></span>
+            </a>
+            
+            </div>
+    </div>
+    <div class="container-fluid bg-darkb pt-100 pb-100 text-center">
+        <div class="container">
+            <h2 class=" mb-100 text-center text-white"><span class="color-purp">Free</span> <span class="sspl">membership</span></h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 justify-content-center d-flex flex-column align-items-center mt-5">
+                    <img src="images/favicon.ico" alt="" class="littleSmile">
+                    <p class="text-white mt-2 ssp">Lorem ipsum</p>
+                    <p class="text-white mt-2">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 justify-content-center d-flex flex-column align-items-center mt-5">
+                    <img src="images/favicon.ico" alt="" class="littleSmile">
+                    <p class="text-white mt-2 ssp">Lorem ipsum</p>
+                    <p class="text-white mt-2">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 justify-content-center d-flex flex-column align-items-center mt-5">
+                    <img src="images/favicon.ico" alt="" class="littleSmile">
+                    <p class="text-white mt-2 ssp">Lorem ipsum</p>
+                    <p class="text-white mt-2">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 justify-content-center d-flex flex-column align-items-center mt-5">
+                    <img src="images/favicon.ico" alt="" class="littleSmile">
+                    <p class="text-white mt-2 ssp">Lorem ipsum</p>
+                    <p class="text-white mt-2">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <button class="button rounded-pill border-0 text-white p-2 mt-5">REGISTER FOR FREE</button>
+        </div>
+    </div>
+
+        <!-- Carousel 2-->
+        <div class="container-fluid mb-100">
+            <h2 class="mt-100 mb-100 text-center">Most <span class="color-purp">popular</span> tutorials</h2>
+                <div id="caro2" class="carousel slide" data-ride="carousel" data-interval="false">
+    
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                    <li data-target="#caro2" data-slide-to="0" class="active"></li>
+                    <li data-target="#caro2" data-slide-to="1"></li>
+                    <li data-target="#caro2" data-slide-to="2"></li>
+                </ul>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner" id="caro2Inner">
+    
+                    <div class="carousel-item active" id="caro2First">
+                        <div class=>
+                            <div class="cards-wrapper">
+                                <div class="card" id="card10">
+                                    <div id="thumb1" class="card-img-div d-flex justify-content-center align-items-center" alt="..."><div class="playCircle"></div></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title sspb">Diagonal Smile</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="d-flex inline">
+                                            <img src="images/profile_1.jpg" class="tinyCircle">
+                                            <p class="color-purp">Phillip Massey</p>
+                                        </div>
+                                        <div class="d-flex inline justify-content-between align-items-center">
+                                            <div class="d-flex inline">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_off.png" alt="star" class="tinyStar mr-1">
+                                            </div>
+                                            <p class="color-purp">8 min</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="card" id="card20">
+                                    <div id="thumb2" class="card-img-div d-flex justify-content-center align-items-center" alt="..."><div class="playCircle"></div></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title sspb">Diagonal Smile</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="d-flex inline">
+                                            <img src="images/profile_1.jpg" class="tinyCircle">
+                                            <p class="color-purp">Phillip Massey</p>
+                                        </div>
+                                        <div class="d-flex inline justify-content-between align-items-center">
+                                            <div class="d-flex inline">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_off.png" alt="star" class="tinyStar mr-1">
+                                            </div>
+                                            <p class="color-purp">8 min</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="card" id="card30">
+                                    <div id="thumb3" class="card-img-div d-flex justify-content-center align-items-center" alt="..."><div class="playCircle"></div></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title sspb">Diagonal Smile</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="d-flex inline">
+                                            <img src="images/profile_1.jpg" class="tinyCircle">
+                                            <p class="color-purp">Phillip Massey</p>
+                                        </div>
+                                        <div class="d-flex inline justify-content-between align-items-center">
+                                            <div class="d-flex inline">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_off.png" alt="star" class="tinyStar mr-1">
+                                            </div>
+                                            <p class="color-purp">8 min</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="card" id="card40">
+                                    <div id="thumb4" class="card-img-div d-flex justify-content-center align-items-center" alt="..."><div class="playCircle"></div></div>
+                                    <div class="card-body">
+                                        <h5 class="card-title sspb">Diagonal Smile</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
+                                        <div class="d-flex inline">
+                                            <img src="images/profile_1.jpg" class="tinyCircle">
+                                            <p class="color-purp">Phillip Massey</p>
+                                        </div>
+                                        <div class="d-flex inline justify-content-between align-items-center">
+                                            <div class="d-flex inline">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_on.png" alt="star" class="tinyStar mr-1">
+                                                <img src="images/star_off.png" alt="star" class="tinyStar mr-1">
+                                            </div>
+                                            <p class="color-purp">8 min</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#caro2" data-slide="prev">
+                    <span class="carousel-control-prev-iconb mr-5"></span>
+                </a>
+                <a class="carousel-control-next" href="#caro2" data-slide="next">
+                    <span class="carousel-control-next-iconb ml-5"></span>
+                </a>
+                
+                </div>
+        </div>
+        <footer class="bg-darkb footsie">
+            <div class="container-fluid">
+                <div class="container text-center d-md-flex flex-inline justify-content-between mt-125">
+                    <div class=" footer-brand flex-inline order-1 mt-125">
+                        <img src="images/favicon.png" alt="smile">
+                        <img src="images/logo.png" alt="smile_logo">
+                    </div>
+                    <div class="flex-d text-center order-3 mt-125">
+                        <span class="social"></span>
+                        <span class="social ml-2 mr-2"></span>
+                        <span class="social"></span>
+                    </div>
+                    <p class=" opacwhite order-2 mt-225">©smileschool 2020</p>
+                </div>
+            </div>
+        </footer>
+
+    <script type='text/javascript' src="./main.js"></script>
+
+</body>
+</html>
