@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function() {
   $oldScreen = screen;
   }, 1000);
 
-testAJAX = function() {
+pullQuotes = function() {
   $.ajax({
     method: "GET",
     url: "https://smileschool-api.hbtn.info/quotes",
@@ -144,12 +144,14 @@ testAJAX = function() {
         $(".loader").show();
     },
     success: function(data) {
-      populateCarosel(data);
-    }
-  })};
+      populateQuotes(data);
+    },
+    complete: function() {
+      $(".loader").hide();
+  }})};
 
   
-populateCarosel = function(data) {
+populateQuotes = function(data) {
   console.log(data);
   let count = 0;
   data.forEach(element => {
@@ -165,6 +167,21 @@ populateCarosel = function(data) {
   });
 }
 
+pullVideos = function() {
+  $.ajax({
+    method: "GET",
+    url: "https://smileschool-api.hbtn.info/popular-tutorials",
+    dataType: "json",
+    beforeSend: function() {
+        $(".loader").show();
+    },
+    success: function(data) {
+      console.log(data);
+    },
+    complete: function() {
+      $(".loader").hide();
+  }})};
+
   $().ready(function() {
-    testAJAX();
+    pullVideos();
   })
